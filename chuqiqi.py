@@ -42,9 +42,9 @@ print(f"体重:{tz}")
 print(f"BMI:{BMI}")
 print("\n")
 #温度转换
-SS=float(input("请输入华氏温度（℃ )"))
-HS=SS*9/5+32
-print(f"{SS}℃ ={HS}℉ ")
+HS=float(input("请输入华氏温度（℃ )"))
+SS=HS*9/5+32
+print(f"{HS}℃ ={SS}℉ ")
 
 
 #第二周内容
