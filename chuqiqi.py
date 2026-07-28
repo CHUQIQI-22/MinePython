@@ -45,6 +45,26 @@ print("\n")
 HS=float(input("请输入华氏温度（℃ )"))
 SS=HS*9/5+32
 print(f"{HS}℃ ={SS}℉ ")
-
-
 #第二周内容
+
+#第三周内容
+print("=====我的书单====")
+books=["shu1","shu2","shu3"]
+for book in books:
+    print(book)
+books.append("shu4")
+print("tianjiashu4",books)
+del books[1]
+print(books)
+
+scs=[55,65,75,86,99]
+total=0
+for a in scs:
+    total=total+a
+    #total += a
+print("zongfen",total)
+print("pjf",total/len(scs))
+
+
+    
+#第三周内容
